@@ -16,9 +16,8 @@ if (d === 0) {
     arr.push(x1, x2);
     return arr;
   }
-  
 }
-console.log(solveEquation(2, -1, -4))
+console.log(solveEquation())
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let p = percent / 100 / 12;
   let payment = amount - contribution;
@@ -26,4 +25,4 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let totalAmount = monthlyPayment * countMonths;
   return +totalAmount.toFixed(2);
 }
-console.log(calculateTotalMortgage(10, 0, 50000, 12))
+console.log(calculateTotalMortgage())
