@@ -71,6 +71,5 @@ function makeWork(arrOfArr, func) {
   }
   return maxWorkerResult;
 }
-const arr = [[10, 10, 11, 20, 10], [67, 10, 2, 39, 88]]
 console.log(makeWork(arr, summElementsWorker));
 
